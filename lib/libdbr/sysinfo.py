@@ -19,6 +19,7 @@ import sys
 __msys_list = ("msys", "mingw32", "mingw64", "clang32", "clang64", "clangarm64", "ucrt64")
 
 __core_name = sys.platform
+__os_name = os.name
 if __core_name == "win32":
   __os_name = __core_name
   __msys = (os.getenv("MSYSTEM") or "").lower()
