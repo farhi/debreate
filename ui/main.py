@@ -258,6 +258,14 @@ class MainWindow(wx.Frame):
       ),
       "hugo.posnic@gmail.com"
     )
+    
+    about.AddJobs(
+      "Emmanuel Farhi",
+      (
+        GT("Code Contributor"),
+      ),
+      "emmanuel.farhi.1@gmail.com"
+    )
 
     about.AddJob("Lander Usategui San Juan", GT("General Contributor"), "lander@erlerobotics.com")
 
